@@ -4,6 +4,7 @@
 // Антон Андреев Митков
 // Програма за реализираща задачата с топките и кутията
 
+
 package org.elsys.BallsAndBoxesAnton;
 
 public class Ball {
