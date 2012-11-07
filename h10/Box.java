@@ -19,10 +19,10 @@ public class Box {
 			if(!box.contains(ball)){
 				box.addLast(ball);
 			} else {
-				System.out.println("This ball is already in the box");
+				System.out.println("This ball is in the box...");
 			}
 		} else {
-			System.out.println("The box is full");
+			System.out.println("There is no free space!!");
 		}
 	}
 	
