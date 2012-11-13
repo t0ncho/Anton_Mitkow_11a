@@ -1,3 +1,9 @@
+// Технологично училище "Електронни системи" към Технически университет - София (www.elsys-bg.org)
+// 11 А клас
+// Номер 2
+// Антон Андреев Митков
+// Програма за реализираща задачата с топките и кутията
+
 package org.elsys.BallsAndBoxesAnton;
 
 import java.util.LinkedList;
@@ -13,10 +19,10 @@ public class Box {
 			if(!box.contains(ball)){
 				box.addLast(ball);
 			} else {
-				System.out.println("This ball is already in the box");
+				System.out.println("This ball is in the box...");
 			}
 		} else {
-			System.out.println("The box is full");
+			System.out.println("There is no free space!!");
 		}
 	}
 	
